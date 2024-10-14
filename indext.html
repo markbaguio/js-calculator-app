@@ -13,14 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
     <!---->
 
     <title>JS Calculator App</title>
   </head>
   <body>
     <div class="calculator">
-      <input type="text" class="display" readonly />
+      <input id="display" class="display" readonly />
       <div class="keys">
         <button onclick="appendToDisplay('+')" class="operator-button">
           +
@@ -52,5 +51,6 @@
         <button onclick="clearDisplay()" class="operator-button">C</button>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
